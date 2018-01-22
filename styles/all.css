@@ -1,0 +1,176 @@
+body {
+  margin: auto;
+  width: 1000px;
+  padding: 50px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fa fa-linkedin{
+  color: white;
+  font-size: 60px;
+}
+
+.fa fa-medium{
+  color: white;
+  font-size: 60px;
+}
+
+.fa fa-twitter{
+  color: white;
+  font-size: 60px;
+}
+
+.fa fa-spotify{
+  color: white;
+  font-size: 60px;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-left: 35px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin-left: 620px;
+  margin-top: -54px;
+}
+
+li {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+li a{
+  color: black;
+}
+
+li a:hover{
+
+}
+
+li a.active{
+  text-decoration: underline;
+}
+
+nav a{
+  text-decoration: none;
+
+}
+
+
+header a{
+  text-decoration: none;
+
+}
+
+header img{
+  position: absolute;
+  width: 160px;
+  margin-left: 855px;
+  margin-top: -306px;
+}
+
+header p{
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  width: 800px;
+  margin-left: 10px;
+  padding-left: 80px;
+  padding-top: 61px;
+  padding-bottom:98px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.social{
+  position: absolute;
+  margin-top: -110px;
+  color: white;
+  margin-left: 90px;
+  display: block;
+}
+
+.work{
+  /*margin-right: 40px;*/
+  margin-top: -20px;
+  /*width: 1000px;*/
+  /*background-color: red;*/
+  position: absolute;
+}
+
+.entity {
+  position: relative;
+  /*border-bottom: 1px dashed #ebebeb;*/
+  /*margin-left: 100px;*/
+}
+
+.entity img{
+  padding-top: 55px;
+  display: block;
+  padding-left: 90px;
+  padding-bottom: 50px;
+  width: 380px;
+}
+
+.description{
+  position: absolute;
+  margin-left: 530px;
+  margin-top: -300px;
+  width: 330px;
+  padding-bottom: 100px;
+}
+
+.headline{
+  font-weight: 700;
+  padding-bottom: 10px;
+  letter-spacing: 0.5px;
+  font-size: 23px;
+}
+
+.more{
+  font-weight: 300;
+  padding-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.role{
+  font-weight: 300;
+  font-size: 13px;
+  padding-bottom: 40px;
+}
+
+.button {
+  background-color: white;
+  color: #000000;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 15px 25px;
+  letter-spacing: 2px;
+  width: 2000px;
+  height: 40px;
+  line-height: 2.4;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
