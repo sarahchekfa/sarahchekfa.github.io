@@ -172,6 +172,7 @@ header p{
   background-color: white;
   color: #000000;
   text-transform: uppercase;
+  text-decoration: none;
   border: 2px solid #000000;
   border-radius: 3px;
   text-align: center;
