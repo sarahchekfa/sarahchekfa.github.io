@@ -65,10 +65,6 @@ nav a{
 
 }
 
-a:hover {
-  border-bottom: 1px dashed #ebebeb;
-}
-
 
 header a{
   text-decoration: none;
@@ -125,10 +121,6 @@ header p{
   width: 380px;
 }
 
-.entity img:hover{
-  opacity: 0.8;
-}
-
 .description{
   position: absolute;
   margin-left: 530px;
@@ -179,7 +171,6 @@ header p{
   color: white;
 }
 
-title{
+a{
   text-decoration: none;
-  color: black;
 }
