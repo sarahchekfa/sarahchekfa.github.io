@@ -6,6 +6,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.social{
+  color: white;
+}
+
 .fa fa-linkedin{
   color: white;
   font-size: 60px;
@@ -31,6 +35,7 @@ body {
   font-size: 30px;
   letter-spacing: 1px;
   margin-left: 35px;
+  color: black;
 }
 
 ul{
@@ -125,6 +130,10 @@ header p{
   width: 380px;
 }
 
+.entity img:hover{
+  opacity: 0.8;
+}
+
 .description{
   position: absolute;
   margin-left: 530px;
@@ -144,6 +153,13 @@ header p{
   font-weight: 300;
   padding-bottom: 15px;
   letter-spacing: 0.5px;
+}
+
+.quote{
+  font-weight: 300;
+  padding-bottom: 15px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
 }
 
 .role{
@@ -173,8 +189,4 @@ header p{
 .button:hover {
   background-color: #000000;
   color: white;
-}
-
-a{
-  text-decoration: none;
 }
