@@ -65,6 +65,10 @@ nav a{
 
 }
 
+a:hover {
+  border-bottom: 1px dashed #ebebeb;
+}
+
 
 header a{
   text-decoration: none;
