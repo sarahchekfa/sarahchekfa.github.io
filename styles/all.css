@@ -26,6 +26,10 @@ body {
   font-size: 60px;
 }
 
+.social a{
+  color: lightblue;
+}
+
 .title{
   font-weight: 900;
   font-size: 30px;
@@ -34,7 +38,7 @@ body {
 }
 
 .title a{
-  color: white;
+  color: black;
 }
 
 ul{
@@ -83,6 +87,7 @@ header img{
 }
 
 header p{
+
   background-color: black;
   color: white;
   margin-top: 35px;
@@ -103,6 +108,9 @@ header p{
   display: block;
 }
 
+#titlecolor a{
+  color:darkred;
+}
 .work{
   /*margin-right: 40px;*/
   margin-top: -20px;
