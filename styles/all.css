@@ -227,7 +227,7 @@ header p{
     font-family: 'Heebo', sans-serif;
     font-size: 14px;
     width: 600px;
-    font-weight: bold;
+    font-weight: normal;
     /* letter-spacing: 0.5px; */
     padding-top: 15px;
     padding-bottom: 15px;
@@ -239,11 +239,11 @@ header p{
     font-size: 10px;
     line-height: 14px;
     padding-bottom: 40px;
-    width: 600px;
+    width: 400px;
     color: #B0AFAF;
     text-transform: uppercase;
   }
-}
+
 
 .name {
   font-family: 'Heebo', sans-serif;
