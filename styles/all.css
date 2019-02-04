@@ -218,9 +218,31 @@ header p{
 
 .words{
   position: absolute;
-  margin-left: 30px;
-  width: 330px;
+  padding-left: 120px;
+  width: 630px;
   padding-bottom: 100px;
+}
+
+.morewords{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    width: 600px;
+    font-weight: bold;
+    /* letter-spacing: 0.5px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+.forwhat{
+    font-family: 'Heebo', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    padding-bottom: 40px;
+    width: 600px;
+    color: #B0AFAF;
+    text-transform: uppercase;
+  }
 }
 
 .name {
