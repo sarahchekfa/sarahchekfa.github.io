@@ -216,6 +216,13 @@ header p{
   padding-bottom: 100px;
 }
 
+.words{
+  position: absolute;
+  margin-left: 30px;
+  width: 330px;
+  padding-bottom: 100px;
+}
+
 .name {
   font-family: 'Heebo', sans-serif;
   font-weight: bold;
