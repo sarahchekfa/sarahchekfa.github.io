@@ -92,6 +92,10 @@ li a.active{
   text-decoration: underline;
 }
 
+li a.hover {
+  border-bottom: 1px dashed #fff;
+}
+
 
 nav {
   margin-left: 70px;
@@ -118,6 +122,8 @@ nav a{
   font-weight: 300;
   font-size: 13px;
 }
+
+
 
 .divider{
   text-align: center;
@@ -166,6 +172,7 @@ header p{
   color:#B8ADF8;
   border-bottom: 1px solid #B8ADF8;
 }
+
 .work{
   /*margin-right: 40px;*/
   margin-top: -20px;
@@ -350,4 +357,19 @@ header p{
 
 a{
   text-decoration: none;
+}
+
+footer {
+  text-align: left;
+  background-color: pink;
+  width: 1217px;
+  color: black;
+  margin-left: -110px;
+}
+
+footer p {
+  padding-right: 400px;
+  margin-left: 200px;
+  color: blue;
+  font-size: 50px;
 }
