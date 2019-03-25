@@ -23,6 +23,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'NHaasGroteskTXStd', sans-serif;
+  overflow-x:hidden;
 }
 
 
@@ -47,16 +48,22 @@ body {
   font-size: 60px;
 }
 
-.social a{
-  color: #B8ADF8;
+.social {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
 }
+
+.social a{
+  color: #EFC2FF;
+}
+
 
 .title{
   font-weight: 900;
-  font-family: 'ReplicaMonoStd';
-  font-size: 30px;
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
   /* letter-spacing: 1px; */
-  margin-left: 120px;
+  margin-left: 200px;
   margin-top: 60px;
 }
 
@@ -98,7 +105,7 @@ li a.hover {
 
 
 nav {
-  margin-left: 70px;
+  margin-left: 150px;
   margin-top:100px;
 
   /* border-right: 500px solid blue; */
@@ -115,7 +122,7 @@ nav a{
   padding-left: 80px;
   padding-top: 65px;
   padding-bottom:93px; */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Space Mono', monospace;
 
   text-transform: uppercase;
   line-height: 46px;
@@ -135,42 +142,42 @@ nav a{
 
 header a{
   text-decoration: none;
-  border-bottom: 1px solid #B8ADF8;
-  color: #B8ADF8;
+  border-bottom: 1px solid #EFC2FF;
+  color: #EFC2FF;
 
 }
 
 header img{
   position: absolute;
-  width: 160px;
-  margin-left: 855px;
-  margin-top: -306px;
+  width: 80px;
+  margin-left: 90px;
+  margin-top: -36px;
 }
 
 header p{
   color: white;
-  margin-top: 35px;
-  width: 800px;
-  margin-left: 40px;
+  margin-top: 0px;
+  width: 1000px;
+  margin-left: 120px;
   padding-left: 80px;
   padding-bottom:93px;
-  font-family: 'NHaasGroteskTXStd', sans-serif;
-  line-height: 46px;
+  font-family: 'Space Mono', monospace;
+  line-height: 25px;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .social{
   position: absolute;
   margin-top: -130px;
   color: white;
-  margin-left: 120px;
+  margin-left: 200px;
   display: block;
 }
 
 #titlecolor a{
-  color:#B8ADF8;
-  border-bottom: 1px solid #B8ADF8;
+  color: #EFC2FF;
+  border-bottom: 1px solid #EFC2FF;
 }
 
 .work{
@@ -191,6 +198,91 @@ header p{
   /*margin-left: 100px;*/
 }
 
+.some-page-wrapper {
+  margin: 15px;
+  background-color: red;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 40%;
+  padding-top: -20px;
+  padding-left: 70px;
+  /* clear: both; */
+}
+
+.column:hover div.themain{
+    display: block;
+}
+
+.themain{
+    /* background-color: yellow; */
+    float: right;
+    margin-top: -320px;
+    /* padding-left: 20px; */
+    margin-right: -88px;
+    width: 150px;
+    color: white;
+    display: none;
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+    /* transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -ms-transition: all 2s linear;
+    -o-transition: all 2s linear; */
+}
+
+.column:hover div.thetype{
+    display: block;
+}
+
+.thetype{
+    /* background-color: yellow; */
+    float: right;
+    margin-top: -295px;
+    padding-left: 20px;
+    margin-right: -68px;
+    width: 130px;
+    color: grey;
+    display: none;
+    font-size: 9px;
+    font-family: 'Space Mono', monospace;
+    /* transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -ms-transition: all 2s linear;
+    -o-transition: all 2s linear; */
+}
+
+.column:hover div.thetime{
+    display: block;
+}
+
+.thetime{
+    /* background-color: yellow; */
+    float: right;
+    margin-top: -250px;
+    padding-left: 20px;
+    margin-right: -69px;
+    width: 130px;
+    color: white;
+    display: none;
+    font-size: 9px;
+    font-family: 'Space Mono', monospace;
+    /* transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -ms-transition: all 2s linear;
+    -o-transition: all 2s linear; */
+}
+
+
+/* Clear floats after image containers */
+.row {
+  width: 1000px;
+}
 .pic_left img{
   padding-top: 86px;
   display: block;
@@ -235,6 +327,28 @@ header p{
   opacity: 0.5;
 }
 
+.pic_general img{
+  /* padding-top: 86px; */
+  /* margin: 300px; */
+  display:block;
+  /* padding-left: 200px;
+   */
+  padding-bottom: 150px;
+  padding-right: 250px;
+  width: auto;
+  margin-left: 110px;
+  height: 210px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.pic_general img:hover{
+  opacity: 0.5;
+}
+
 .description{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: absolute;
@@ -254,13 +368,13 @@ header p{
 
 .words{
   position: absolute;
-  padding-left: 120px;
+  padding-left: 200px;
   width: 630px;
   padding-bottom: 100px;
 }
 
 .morewords{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Space Mono', monospace;
     font-size: 14px;
     width: 600px;
     font-weight: normal;
@@ -270,7 +384,7 @@ header p{
   }
 
 .forwhat{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Space Mono', monospace;
     font-weight: normal;
     font-size: 10px;
     line-height: 14px;
@@ -293,7 +407,7 @@ header p{
   width: 800px;
 }
 .headline{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Space Mono', monospace;
   font-weight: bold;
   /* font-family: 'NHG', sans-serif; */
   padding-bottom: 10px;
