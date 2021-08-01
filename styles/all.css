@@ -249,6 +249,11 @@ header p{
   }
 }
 
+a { 
+  text-decoration: none; 
+  color: black; 
+ }
+
 a:visited { 
   text-decoration: none; 
   color: black; 
@@ -428,7 +433,7 @@ h1 {
   letter-spacing: 1px;
   text-decoration: underline;
   line-height: 22px;
-  color: pink
+  color: black
 }
 
 .explained {
