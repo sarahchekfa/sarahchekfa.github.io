@@ -436,6 +436,10 @@ h1 {
   color: black
 }
 
+.named a{
+  color:black
+}
+
 .explained {
   font-size: 17px;
   /* padding-bottom:60px; */
